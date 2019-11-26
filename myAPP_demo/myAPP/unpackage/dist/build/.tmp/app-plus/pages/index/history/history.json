@@ -1,0 +1,9 @@
+{
+  "titleNView": false,
+  "bounce": "none",
+  "usingComponents": {
+    "uni-title": "/components/uni-title/uni-title",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-table": "/components/uni-table/uni-table"
+  }
+}

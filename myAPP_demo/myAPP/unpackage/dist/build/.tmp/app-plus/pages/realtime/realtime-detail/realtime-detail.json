@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "项目名称",
+  "usingComponents": {
+    "uni-joint": "/components/uni-joint/uni-joint",
+    "avatar": "/components/yq-avatar/yq-avatar"
+  }
+}

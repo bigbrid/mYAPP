@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "现场详情",
+  "usingComponents": {
+    "uni-site": "/components/uni-site/uni-site"
+  }
+}

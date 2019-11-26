@@ -1,0 +1,6 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uni-prompt": "/components/uni-prompt/uni-prompt"
+  }
+}

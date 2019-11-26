@@ -1,0 +1,102 @@
+module.exports = {
+	login:{
+		path:"user/login",
+		filter:true,
+		description:"登录"
+	},
+	logout:{
+		path:"user/logout",
+		description:"注销"
+	},
+	profile:{
+		path:"user/profile",
+		description:"修改用户信息"
+	},
+	edit_pwd:{
+		path:"user/edit_pwd",
+		description:"修改密码"
+	},
+	index:{
+		path:"index/index",
+		description:"首页接口"
+	},
+	article:{
+		path:"index/notice_detail",
+		description:"文章详情"
+	},
+	analysis:{
+		path:"project/ranking",
+		description:"分析排名"
+	},
+	ranking_detail:{
+		path:"project/ranking_detail",
+		description:"排名详情"
+	},
+	alarm:{
+		path:"report/wrong_list",
+		description:"报警管理"
+	},
+	alarmDetails:{
+		path:"report/wrong_detail",
+		description:"报警详情"
+	},
+	report_list:{
+		path:"report/report_list",
+		description:"报警记录全部"
+	},
+	get_project_list:{
+		path:"project/get_project_list",
+		description:"实时数据项目列表"
+	},
+	project_detail:{
+		path:"project/project_detail",
+		description:"实时数据详情"
+	},
+	uploadImage:{
+		path:"project/upload_img",
+		description:"上传图片"
+	},
+	coordinate:{
+		path:"project/coordinate",
+		description:"设备视频分布图"
+	},
+	video_monitor:{
+		path:"project/video_monitor",
+		description:"视频监控"	
+	},
+	site:{
+		path:"site/index",
+		description:"现场管理,动态列表"	
+	},
+	site_detail:{
+		path:'site/detail',
+		description:"现场详情"	
+	},
+	site_del:{
+		path:'site/del',
+		description:"删除现场详情"
+	},
+	site_add:{
+		path:"site/add",
+		description:"发布"
+	},
+	site_comment:{
+		path:"site/comment",
+		description:"评论/回复"
+	},
+	get_color:{
+		path:"index/get_color",
+		description:"等级颜色"
+	},
+	project_history:{
+		path:"project/history",
+		description:"历史记录"
+	}
+}
+
+
+
+
+
+
+

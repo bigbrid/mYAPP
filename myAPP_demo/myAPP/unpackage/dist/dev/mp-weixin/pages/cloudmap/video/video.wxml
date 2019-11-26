@@ -1,0 +1,1 @@
+<view class="container flex-direction_column data-v-a3c7fc6e"><video class="video data-v-a3c7fc6e" id="myVideo" autoplay="{{true}}" src="{{video_src}}" data-event-opts="{{[['error',[['videoErrorCallback',['$event']]]]]}}" binderror="__e"></video></view>

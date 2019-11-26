@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "报警监管",
+  "bounce": "none",
+  "scrollIndicator": "none",
+  "softinputNavBar": "none",
+  "softinputMode": "adjustResize",
+  "usingComponents": {
+    "uni-search": "/components/uni-search/uni-search",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-term": "/components/uni-term/uni-term"
+  }
+}

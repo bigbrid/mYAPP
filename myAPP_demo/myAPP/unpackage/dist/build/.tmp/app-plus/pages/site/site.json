@@ -1,0 +1,22 @@
+{
+  "navigationBarTitleText": "现场管理",
+  "bounce": "none",
+  "scrollIndicator": "none",
+  "softinputNavBar": "none",
+  "softinputMode": "adjustResize",
+  "titleNView": {
+    "buttons": [
+      {
+        "color": "#333333",
+        "fontSize": "28upx",
+        "text": "发布",
+        "width": "40px"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-search": "/components/uni-search/uni-search",
+    "uni-badge": "/components/uni-badge/uni-badge",
+    "site-item": "/pages/site/site-item"
+  }
+}

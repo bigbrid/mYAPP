@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "uni-prompt": "/components/uni-prompt/uni-prompt"
+  },
+  "component": true
+}

@@ -1,0 +1,15 @@
+
+page.data-v-6ce7a0f7 {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.container.data-v-6ce7a0f7 {
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	min-height: calc(100vh - 44px);
+	background-color: #f6f6f6;
+}
+

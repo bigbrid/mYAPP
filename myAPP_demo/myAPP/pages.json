@@ -1,0 +1,39 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"app-plus":{
+					"titleNView":false,
+					"bounce" : "none"
+				}
+			}
+		},
+		{
+			"path": "pages/public/login",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "项目名称",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+		"color": "#606060",
+		"selectedColor": "#FF5348",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [
+			// {
+			// 	"pagePath": "",
+			// 	"iconPath": "",
+			// 	"selectedIconPath": "",
+			// 	"text": ""
+			// }
+		]
+	}
+}

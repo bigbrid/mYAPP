@@ -1,0 +1,149 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 主盒子 */
+.title-contents.data-v-a70ae626 {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100vw;
+		z-index: 999;
+}
+	/* 状态栏 */
+.title-contents .status.data-v-a70ae626 {
+		width: 100vw;
+		height: var(--status-bar-height);  
+		background-color: #fff;
+}
+	/* 导航栏主体 */
+.title-contents .title-view.data-v-a70ae626 {
+		position: relative;
+		background-color: #fff;
+		width: 100vw;
+		padding: 0 32rpx 0 32rpx;
+		height: 44px;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: row;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+		-webkit-box-pack: justify;
+		-webkit-justify-content: space-between;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+}
+	/* 导航栏左右两边 */
+.title-contents .title-view_side.data-v-a70ae626{
+		width: 100rpx;
+		height: 100%;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: row;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+}
+	/* 返回按钮 */
+.title-contents .title-view_but.data-v-a70ae626 {
+		background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAABICAYAAACaw4eEAAAFjUlEQVRoQ8Waf4gVVRTHz5nZbRcTjCWhCGH9wz/c3dZ5ZyCFVcHSTE0p2JAVlCQUCYWC/gtS+/GX0D9KkYJgQiQGSaWboRm2khL3zvLS9U8FpWiFF1Lo7PJ2ThwZF93d986dN++9nX/vd875zL1v7pzzvQ9hFi8ieh0AtiPiRgC4wcwn4zj+aGRk5D+cLS4i2oyIX0/Nz8yD1tr1swJGRK8i4veVJqVcLvc0HSwIgjW+7/9UbaWSJBloKhgRrUDEHwFgjgLW3zSwJUuWvOD7/s+I+KTyu74/Pj7+XFPAgiAIPM+7gIhPaS8bM++y1n7RcDAiWoyIQwDQ4QB1yFq7R3QNBevt7V3Y0tJyBRHnO0Adt9Zue6hrGFhPT8+Ctra2SwCwwAHqhLV2CwAkDQULw/BZABCohRoUAJwxxmwCgIlHtXWfsUKhMB8RLyHiIg2Kmc/FcbxhZGRkfKq2rmBhGM5j5t8QcbED1OVSqbTq5s2b8UzauoF1dXXNbW9v/wURQweoYhzHffKxrqStC1gYhnOY+TwiLnOAuj42Nrb82rVrpWra3GCdnZ3tHR0dZxFxpQYlpU2SJEujKLqjafOCtRDRICKu1hIBwK2xsbG+q1ev3nLQ5tpg/TAMvwGA17REzHynXC4vLRaLNzRt3n3MI6KvEHGzQ6ISMy+31l530E5KallKJKJjiLhVS8TM8tb1WWuLmjb3PkZEhxFxh0OimJlXWWsvO2inSTLNGBEdQMT3tETMPM7MG6IoOqdpc+9jRLQPEfc6JJqYmJjYNDw8fMZBW1HiNGNhGMosHdASMbNUB1ustSc0rTaughHRDkQ8rAWS8SRJtkVRdNxFq2mqghUKha2IKG+g+gDMvMdae0hL6DpeMaE0pAAge5XnEGyvMeZDB52zZEawMAxlN5dd3dciMfNkna5ps4xPAysUCqs9zxsEgBYtEDMfsdbu1HS1jD8GVigUVnqedxYA2rVgzCx1+gAAsKatZXwSjIiWIeJ5rUtOk5wyxvRPrdNrAai6wRKRVJ1Sfc7Vgkudbq1dBwBlTZtnHNOORj6yT2uBmPnX0dHRtbdv376vafOOS6VwFBG3a4GY+fc4jl+sVqdrMbKMy4z9BQDPKDf9AQArjDF3swTPoxUw7a36O0mS513q9DwgU++VpfzHwYV52xjzeT0Ta7FkxmTfelkTAsCbxphjDrq6SDAIgj7f98UmUq8kSd6Iokg+VQ2/HmywRCSW9lGXbMy80Vr7g4s2j+bRnX83Ih7UgqVl85ooii5q2jzjj30rXStVALjHzC/V2mi4AE+rLojoY0R8X7s5T2umxZbxGesxIjqIiLsdAtTUzDrErWwRENGXjk1t5vY/FxgAZLEBMhkmecHkfmfjJIvFVA8wieFsNTGzkylXLzDIYs4xc1FMvLyViNovPny6jHamSeHuuczOTBpnMLk5NYDFKu/VEjLzxVKptLaSK63dnwlMgnV3d3e0tbUNOVrmNfcHmcEETg4ZPM+74njyUVNHVROYwNVwVpSpB60ZTODkdK21tVXOjOTsqOqVtWvPBSYkQRAs8n1f7MxM55Hag+QGkwRE1IuIUp/N0xIy8z5r7X5NVxewFC5LN696aXUDS+HE/7jgaMrstNYeqTRzdQVLt5LViHgaEZ+otlzMLP3sQCW/tu5g6Qux3vf97xyMPznV7TfGnJr6EA0BS5fV1SotJ0mybuqZQMPA0mV1NZfjJEnWPtp5NRQsnTlXO146r5XWWiP3NRxMkmRoC++mcMWmgKXLut/zvA+0jRUAHrhLTQNLl/VTRHxXg2Pmz5oKli6r2Fm7lD3uz6aDpXBiZ03+j2cGyH9nBSyFOymba4WZG5o1sBTu25kO+5n5lVkFS1+IdxDxLSmK07/ffGKMOf0/nrRjmotfWqwAAAAASUVORK5CYII=) no-repeat;
+		background-size: 100% 100%;
+		width: 19rpx;
+		height: 36rpx;
+}
+	/* 主体内容 */
+.title-contents .title-view_center.data-v-a70ae626{
+		-webkit-box-flex: 1;
+		-webkit-flex: 1;
+		    -ms-flex: 1;
+		        flex: 1;
+		height: 100%;
+		padding: 0 20rpx;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+}
+.title-contents .center_name.data-v-a70ae626{
+		font-weight: 700;
+		font-size: 16px;
+		line-height: 30px;
+		text-align: center;
+		overflow: hidden;
+		white-space: nowrap;
+		-o-text-overflow: ellipsis;
+		   text-overflow: ellipsis;
+}
+

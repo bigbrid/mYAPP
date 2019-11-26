@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "实时视频",
+  "bounce": "none",
+  "scrollIndicator": "none",
+  "softinputNavBar": "none",
+  "softinputMode": "adjustResize",
+  "usingComponents": {}
+}

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "报警详情",
+  "usingComponents": {
+    "uni-table": "/components/uni-table/uni-table",
+    "uni-joint": "/components/uni-joint/uni-joint"
+  }
+}

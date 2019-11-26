@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-term": "/components/uni-term/uni-term"
+  },
+  "component": true
+}

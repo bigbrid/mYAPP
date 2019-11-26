@@ -1,0 +1,77 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/article",
+    "pages/index/history/history",
+    "pages/realtime/realtime",
+    "pages/realtime/realtime-detail/realtime-detail",
+    "pages/monitor/monitor",
+    "pages/cloudmap/video/video",
+    "pages/analysis/analysis",
+    "pages/analysis/analysis-detail/analysis-detail",
+    "pages/alarm/alarm",
+    "pages/alarm/alarm-details/alarm-details",
+    "pages/alarm/alarm-all/alarm-all",
+    "pages/site/site",
+    "pages/site/put-out/put-out",
+    "pages/site/site-details/site-details",
+    "pages/user/login",
+    "pages/user/user",
+    "pages/user/change"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "环境监测",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#FFFFFF"
+  },
+  "nvue": {
+    "pages": {
+      "pages/realtime/realtime-map/realtime-map.html": {
+        "window": {
+          "usingComponents": {},
+          "navigationBarTitleText": "设备地图"
+        },
+        "nvue": true
+      },
+      "pages/cloudmap/cloudmap.html": {
+        "window": {
+          "usingComponents": {},
+          "navigationStyle": "custom",
+          "titleNView": false
+        },
+        "nvue": true
+      },
+      "pages/cloudvideo/cloudvideo.html": {
+        "window": {
+          "usingComponents": {},
+          "navigationStyle": "custom",
+          "titleNView": false
+        },
+        "nvue": true
+      }
+    }
+  },
+  "nvueCompiler": "uni-app",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "扬尘监测",
+  "compilerVersion": "2.4.2",
+  "usingComponents": {
+    "uni-prompt": "/components/uni-prompt/uni-prompt",
+    "uni-table": "/components/uni-table/uni-table",
+    "uni-search": "/components/uni-search/uni-search",
+    "uni-term": "/components/uni-term/uni-term",
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "avatar": "/components/yq-avatar/yq-avatar",
+    "uni-badge": "/components/uni-badge/uni-badge",
+    "mpvue-picker": "/components/mpvue-picker/mpvuePicker",
+    "mpvue-city-picker": "/components/mpvue-citypicker/mpvueCityPicker",
+    "uni-joint": "/components/uni-joint/uni-joint",
+    "uni-title": "/components/uni-title/uni-title"
+  }
+}

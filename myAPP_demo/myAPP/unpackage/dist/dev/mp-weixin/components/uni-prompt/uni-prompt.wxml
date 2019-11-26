@@ -1,0 +1,1 @@
+<view class="data-v-08bb1ad5"><view class="uni-prompt data-v-08bb1ad5"><block wx:for="{{data}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view class="uni-prompt_th data-v-08bb1ad5" style="{{('background-color:'+item.bg_color)}}"><text class="uni-prompt_text data-v-08bb1ad5">{{item.text}}</text></view></block></view></view>

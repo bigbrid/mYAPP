@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "实时数据",
+  "scrollIndicator": "none",
+  "softinputNavBar": "none",
+  "softinputMode": "adjustResize",
+  "bounce": "none",
+  "usingComponents": {
+    "uni-search": "/components/uni-search/uni-search",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-table": "/components/uni-table/uni-table"
+  }
+}

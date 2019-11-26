@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "视频监控",
+  "bounce": "none",
+  "scrollIndicator": "none",
+  "softinputNavBar": "none",
+  "softinputMode": "adjustResize",
+  "usingComponents": {
+    "uni-search": "/components/uni-search/uni-search",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "mpvue-picker": "/components/mpvue-picker/mpvuePicker"
+  }
+}

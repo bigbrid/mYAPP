@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "发布",
+  "usingComponents": {
+    "mpvue-picker": "/components/mpvue-picker/mpvuePicker"
+  }
+}

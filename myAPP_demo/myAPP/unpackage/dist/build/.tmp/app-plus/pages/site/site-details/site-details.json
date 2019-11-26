@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "现场详情",
+  "bounce": "none",
+  "scrollIndicator": "none",
+  "softinputNavBar": "none",
+  "softinputMode": "adjustResize",
+  "usingComponents": {
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-site": "/components/uni-site/uni-site"
+  }
+}

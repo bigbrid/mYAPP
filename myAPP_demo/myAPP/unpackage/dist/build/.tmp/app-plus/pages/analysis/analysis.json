@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "分析排名",
+  "bounce": "none",
+  "scrollIndicator": "none",
+  "softinputNavBar": "none",
+  "softinputMode": "adjustResize",
+  "usingComponents": {
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "analysis-table": "/pages/analysis/analysis-table"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "报警记录全部",
+  "usingComponents": {
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-table": "/components/uni-table/uni-table"
+  }
+}

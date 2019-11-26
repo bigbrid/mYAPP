@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/uni-table/uni-table"],{4975:function(t,n,e){"use strict";Object.defineProperty(n,"__esModule",{value:!0}),n.default=void 0;var u=function(){return e.e("components/uni-prompt/uni-prompt").then(e.bind(null,"0d1c"))},i={name:"uniTable",components:{uniPrompt:u},props:{rank:{type:Number||String,default:1},thead:{type:Array,default:function(){return[{text:"项目名称",style:"width: 146upx;"},{text:"PM2.5",style:"width: 86upx;"},{text:"PM10",style:"width: 93upx;"},{text:"公布值",style:"width: 90upx;"},{text:"状态",style:"width: 72upx;"},{text:"时间",style:"width: 110upx;"},{text:"查看",style:"width: 91upx;"}]}},tbody:{type:Array,default:function(){return[{p_td0:"锦艺四季城市花园",p_td1:35,p_td2:126,p_td3:50,p_td4:"在线",p_td5:"16:14:25"}]}}},data:function(){return{list:this.tbody}},created:function(){this.list=this.tbody},watch:{tbody:function(t){this.list=t}},methods:{onDetail:function(t,n){this.$emit("onClickThat",{col_index:t,col_item:n})}}};n.default=i},6939:function(t,n,e){"use strict";var u=function(){var t=this,n=t.$createElement;t._self._c},i=[];e.d(n,"a",function(){return u}),e.d(n,"b",function(){return i})},"6dc8":function(t,n,e){"use strict";var u=e("f45a"),i=e.n(u);i.a},8022:function(t,n,e){"use strict";e.r(n);var u=e("4975"),i=e.n(u);for(var r in u)"default"!==r&&function(t){e.d(n,t,function(){return u[t]})}(r);n["default"]=i.a},aece:function(t,n,e){"use strict";e.r(n);var u=e("6939"),i=e("8022");for(var r in i)"default"!==r&&function(t){e.d(n,t,function(){return i[t]})}(r);e("6dc8");var o=e("2877"),a=Object(o["a"])(i["default"],u["a"],u["b"],!1,null,"94727bfc",null);n["default"]=a.exports},f45a:function(t,n,e){}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/uni-table/uni-table-create-component',
+    {
+        'components/uni-table/uni-table-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('6e42')['createComponent'](__webpack_require__("aece"))
+        })
+    },
+    [['components/uni-table/uni-table-create-component']]
+]);                
